@@ -89,7 +89,7 @@ console.log(ProductName);
 
 ```
 
-#3 Explain the difference between any, unknown, and never types in TypeScript.
+# 3 Explain the difference between any, unknown, and never types in TypeScript.
 
 ### Any
 
