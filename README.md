@@ -89,4 +89,17 @@ console.log(ProductName);
 
 ```
 
+#3 Explain the difference between any, unknown, and never types in TypeScript.
+
+### Any
+
+Actually any don't care about type safety and you can assign anything to it.The Typescript compailer won't complain about this.
+
+```
+let x:any=20;
+
+console.log(x.toFixed(2))
+
+```
+
 ---
