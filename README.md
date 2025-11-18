@@ -93,7 +93,7 @@ console.log(ProductName);
 
 ### Any
 
-Actually any don't care about type safety and you can assign anything to it.The Typescript compailer won't complain about this.
+Actually any don't care about type safety and you can assign anything to it.The Typescript compailer won't complain about this.but Its uses is dont safe.
 
 ```
 let x:any=20;
@@ -101,5 +101,13 @@ let x:any=20;
 console.log(x.toFixed(2))
 
 ```
+
+### Unknown
+
+You can assign anything with Unknown type.But you have to check its type first before using.and the intersting thing is its more sequre than any.
+
+### Never
+
+Its like a value will never exist.Its used in impossible cases.Functions that never return like infinite loops or error.
 
 ---
