@@ -106,8 +106,28 @@ console.log(x.toFixed(2))
 
 You can assign anything with Unknown type.But you have to check its type first before using.and the intersting thing is its more sequre than any.
 
+```
+let y:unknown='hello';
+
+if(typeof x==='string'){
+    x.toUpperCase();
+}
+
+```
+
 ### Never
 
 Its like a value will never exist.Its used in impossible cases.Functions that never return like infinite loops or error.
+
+```
+function excecute():never{
+    throw new Error(" This is a never error haha ")
+}
+
+```
+
+# 4 What is the use of enums in TypeScript? Provide an example of a numeric and string enum.
+
+# 5 Provide an example of using union and intersection types in TypeScript
 
 ---
